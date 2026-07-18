@@ -42,3 +42,6 @@ next-env.d.ts
 
 # raw import dumps (regenerate via npm run import:fetch)
 /data/raw/
+
+# generated for static hosting (copied in prebuild)
+/public/data/

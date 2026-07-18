@@ -18,6 +18,19 @@ npm run dev
 
 Откройте [http://localhost:3000](http://localhost:3000).
 
+## GitHub Pages
+
+После пуша в `main` сайт публикуется как у Web Giants:
+
+**https://esquire0169.github.io/star-carpet/**
+
+Локальная проверка статики:
+
+```bash
+GITHUB_PAGES=true npm run build
+npx serve out
+```
+
 ## Обновление каталога
 
 ```bash

@@ -16,6 +16,11 @@ const body = Manrope({
   weight: ["400", "500", "600", "700"],
 });
 
+const siteUrl =
+  process.env.GITHUB_PAGES === "true"
+    ? "https://esquire0169.github.io/star-carpet"
+    : "https://www.star-carpet.ru";
+
 export const metadata: Metadata = {
   title: {
     default: "Star Carpet — ковры со всего мира",
@@ -23,7 +28,7 @@ export const metadata: Metadata = {
   },
   description:
     "Интернет-магазин ковров Star Carpet: каталог из Турции, Ирана, Бельгии, Египта и России. Примерка в Москве, доставка по РФ, опт для дизайнеров и гостиниц.",
-  metadataBase: new URL("https://www.star-carpet.ru"),
+  metadataBase: new URL(siteUrl),
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
