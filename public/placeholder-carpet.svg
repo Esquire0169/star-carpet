@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" fill="none">
+  <rect width="800" height="800" fill="#E7DFD2"/>
+  <rect x="120" y="180" width="560" height="440" rx="40" fill="#D4C7B4"/>
+  <path d="M180 280h440M180 360h440M180 440h440M180 520h440" stroke="#7A2430" stroke-opacity=".25" stroke-width="8"/>
+  <text x="400" y="420" text-anchor="middle" fill="#5C564E" font-family="Arial, sans-serif" font-size="28">Star Carpet</text>
+</svg>
